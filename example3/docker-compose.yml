@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  nginx:
+    image: nginx:1.15.2-alpine
+    ports:
+      - "8000:80"
+    links:
+      - fpm
+    volumes:
+      - ./html:/var/www/htdocs/
+      - ./conf.d:/etc/nginx/conf.d:cached
+
+  fpm:
+    image: php:7-fpm-alpine
+    volumes:
+      - ./html:/var/www/htdocs/
