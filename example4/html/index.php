@@ -7,15 +7,23 @@
     <title>Docker nginx Tutorial</title>
     <style>
         h1 { color: darkslategrey; font-size: 3em;}
-        .hint { color: darkslategrey; font-size: 1.7em; }
-        .hint strong { color: deepskyblue}
+        li, .hint { color: darkslategrey; font-size: 1.7em; }
+        li strong, .hint strong { color: deepskyblue}
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Hello People</h1>
-    <p class="hint">This nginx page is brought to you by <strong>Docker-Compose</strong>.</p>
+    <h1>Hello ambimax® Team</h1>
+    <p class="hint">This nginx page is brought to you by</p>
+    <ul>
+        <li><strong>nginx</strong></li>
+        <li><strong>PHP <?php echo phpversion() ?></strong></li>
+        <li><strong>Docker-Compose</strong></li>
+    </ul>
+
     <p><img src="vertical.png"></p>
+
+    <p class="hint">Show me some proof: <stong><a href="phpinfo.php">phpinfo</a></stong></p>
 </div>
 </body>
 </html>

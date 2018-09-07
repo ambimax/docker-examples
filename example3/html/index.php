@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Hello ambimax® Team</h1>
+    <h1>Hello People</h1>
     <p class="hint">This nginx page is brought to you by</p>
     <ul>
         <li><strong>nginx</strong></li>
@@ -23,7 +23,7 @@
 
     <p><img src="vertical.png"></p>
 
-    <p class="hint">Show me some proof: <stong><a href="phpinfo.php">phpinfo</a></stong></p>
+    <p class="hint">Show me some proof: <strong><a href="phpinfo.php">phpinfo</a></strong></p>
 </div>
 </body>
 </html>
